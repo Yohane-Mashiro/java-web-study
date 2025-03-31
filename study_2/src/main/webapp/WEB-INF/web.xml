@@ -5,20 +5,20 @@
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
   <servlet>
-    <servlet-name>hello</servlet-name>
+    <servlet-name>context_test</servlet-name>
     <servlet-class>newnew.study.Main</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>hello</servlet-name>
-    <url-pattern>/*</url-pattern>
+    <servlet-name>context_test</servlet-name>
+    <url-pattern>/test</url-pattern>
   </servlet-mapping>
-  
+
   <servlet>
-    <servlet-name>404error</servlet-name>
-    <servlet-class>newnew.study.Error</servlet-class>
+    <servlet-name>newnew</servlet-name>
+    <servlet-class>newnew.study.Servlet_context</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>404error</servlet-name>
-    <url-pattern>/error</url-pattern>
+    <servlet-name>newnew</servlet-name>
+    <url-pattern>/newnew</url-pattern>
   </servlet-mapping>
 </web-app>

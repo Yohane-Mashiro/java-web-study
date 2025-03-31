@@ -9,6 +9,7 @@
   <url>http://maven.apache.org</url>
   <modules>
       <module>study_1</module>
+      <module>study_2</module>
   </modules>
   <dependencies>
         <!-- https://mvnrepository.com/artifact/javax.servlet.jsp/javax.servlet.jsp-api -->
