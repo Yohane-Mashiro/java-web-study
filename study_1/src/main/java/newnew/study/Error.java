@@ -11,11 +11,13 @@ import java.io.IOException;
 public class Error extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
+        System.out.println("error");
+        resp.getWriter().write("error");
     }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
+        System.out.println("error");
+        resp.getWriter().write("error");
     }
 }

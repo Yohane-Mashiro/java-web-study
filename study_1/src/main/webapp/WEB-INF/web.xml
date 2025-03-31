@@ -10,6 +10,15 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>hello</servlet-name>
-    <url-pattern>/hello</url-pattern>
+    <url-pattern>/*</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>404error</servlet-name>
+    <servlet-class>newnew.study.Error</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>404error</servlet-name>
+    <url-pattern>/error</url-pattern>
   </servlet-mapping>
 </web-app>
