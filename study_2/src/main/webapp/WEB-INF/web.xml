@@ -21,4 +21,18 @@
     <servlet-name>newnew</servlet-name>
     <url-pattern>/newnew</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>db</servlet-name>
+    <servlet-class>newnew.study.GetDatabase</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>db</servlet-name>
+    <url-pattern>/db</url-pattern>
+  </servlet-mapping>
+  
+  <context-param>
+    <param-name>db</param-name>
+    <param-value>jdbc:mysql//localhost:3306/newnew</param-value>
+  </context-param>
 </web-app>

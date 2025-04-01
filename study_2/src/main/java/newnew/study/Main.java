@@ -12,8 +12,10 @@ public class Main extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         ServletContext context =this.getServletContext();
+
         Object nameAttr = context.getAttribute("name");
         String name = nameAttr != null ? nameAttr.toString() : null;
+
         resp.setContentType("text/html");
         resp.setCharacterEncoding("UTF-8");
         if (name == null) {

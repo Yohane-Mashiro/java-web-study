@@ -10,6 +10,7 @@
   <modules>
       <module>study_1</module>
       <module>study_2</module>
+      <module>study_3</module>
   </modules>
   <dependencies>
         <!-- https://mvnrepository.com/artifact/javax.servlet.jsp/javax.servlet.jsp-api -->
