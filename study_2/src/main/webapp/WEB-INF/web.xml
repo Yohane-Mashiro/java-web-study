@@ -6,7 +6,7 @@
   <display-name>Archetype Created Web Application</display-name>
   <servlet>
     <servlet-name>context_test</servlet-name>
-    <servlet-class>newnew.study.Main</servlet-class>
+    <servlet-class>newnew.study.SendRedirect</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>context_test</servlet-name>

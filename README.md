@@ -5,3 +5,6 @@
 
 ## study2
 练习ServletContext的简单使用
+
+## study3
+练习HttpServletResponse的使用

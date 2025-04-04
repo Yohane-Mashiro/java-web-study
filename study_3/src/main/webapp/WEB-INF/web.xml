@@ -4,4 +4,46 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>SendRedirect</servlet-name>
+    <servlet-class>newnew.study.SendRedirect</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SendRedirect</servlet-name>
+    <url-pattern>/sendRedirect</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>time</servlet-name>
+    <servlet-class>newnew.study.Time</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>time</servlet-name>
+    <url-pattern>/time</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>download</servlet-name>
+    <servlet-class>newnew.study.DownLoad</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>download</servlet-name>
+    <url-pattern>/download_api</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>upload</servlet-name>
+    <servlet-class>newnew.study.Upload</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>upload</servlet-name>
+    <url-pattern>/upload_api</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>default</servlet-name>
+    <url-pattern>/resource/*</url-pattern>
+  </servlet-mapping>
+  
 </web-app>
